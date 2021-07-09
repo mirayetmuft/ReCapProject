@@ -9,7 +9,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.Entity_Framework
 {
-    class EfRentalDal : EfEntityRepositoryBase<Rental, RentACarContext>, IRentalDal
+    public class EfRentalDal : EfEntityRepositoryBase<Rental, RentACarContext>, IRentalDal
     {
         //public List<RentDetailDto> GetRentDetail()
         //{
